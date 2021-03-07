@@ -14,16 +14,16 @@ namespace urmom.Items.Tools
 
         public override void SetDefaults()
         {
-            item.damage = 25;
+            item.damage = 69;
             item.melee = true;
-            item.width = 38;
-            item.height = 38;
-            item.useTime = 5;
-            item.useAnimation = 10;
-            item.pick = 20;
+            item.width = 69;
+            item.height = 69;
+            item.useTime = 69;
+            item.useAnimation = 69;
+            item.pick = 69;
             item.useStyle = ItemUseStyleID.SwingThrow;
-            item.knockBack = 6;
-            item.value = 10000;
+            item.knockBack = 69;
+            item.value = 69420;
             item.rare = ItemRarityID.Yellow;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
@@ -32,7 +32,7 @@ namespace urmom.Items.Tools
         public override void AddRecipes()
         {
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Amethyst, 25);
+			recipe.AddIngredient(ItemID.Amethyst, 69);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
@@ -42,7 +42,7 @@ namespace urmom.Items.Tools
 
         public override void MeleeEffects(Player player, Rectangle hitbox)
         {
-            if (Main.rand.NextBool(10))
+            if (Main.rand.NextBool(420))
             {
 
             }
